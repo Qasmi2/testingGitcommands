@@ -62,7 +62,13 @@ Records or snapshort the file permanently in the version control history
 
 To find the latest commit 
     git show --summary
+    git log .
+    git log --oneline
     cat .git/refs/heads/branchName
+
+
+
+
 
 
 
