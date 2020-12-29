@@ -67,6 +67,9 @@ To find the latest commit
     git log --oneline --graph ( to show graph)
     cat .git/refs/heads/branchName
 
+To find the lastest head 
+    git reflog
+
 To Compare the version of the files
     git diff
     
