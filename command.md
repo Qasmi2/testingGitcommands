@@ -51,10 +51,19 @@ To track / add a file to staging area
 To track / add all the modifing files to statuging area 
     git add . 
     git add -A
-    
+
 To untrack / or remove a file to the staging area 
     git rm --cached file-name  
     git rm -f --cached file-name
+
+Records or snapshort the file permanently in the version control history 
+
+    git commit -m "write a usefull commit here"
+
+To find the latest commit 
+    git show --summary
+    cat .git/refs/heads/branchName
+
 
 
 
