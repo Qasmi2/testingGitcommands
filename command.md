@@ -91,8 +91,15 @@ To check the configuration of Remote repository
     git config --list  ( for both )
 
 To Configuring Git 
+
     git config --global user.name "username"
     git config --global user.email "useremail"
+
+To Remove the configuration 
+
+    git config --global --edit 
+    git config --global --unset user.name
+    git config --global --unset user.email
 
 To set the remote repository 
 
