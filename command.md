@@ -33,26 +33,34 @@ To Install git on ubuntu
 
 	sudo apt-get install git
 
+
 To check the git version
+
 	git --version
 
 To create a folder as a local git repository 
+
 	git init 
 
 To clone the remove repository 
+
     git clone url 
 
 To check the status of the repository 
+
     git status
 
 To track / add a file to staging area 
+
     git add file-name
 
 To track / add all the modifing files to statuging area 
+
     git add . 
     git add -A
 
 To untrack / or remove a file to the staging area 
+
     git rm --cached file-name  
     git rm -f --cached file-name
 
@@ -61,6 +69,7 @@ Records or snapshort the file permanently in the version control history
     git commit -m "write a usefull commit here"
 
 To find the latest commit 
+
     git show --summary
     git log .
     git log --oneline
@@ -68,10 +77,38 @@ To find the latest commit
     cat .git/refs/heads/branchName
 
 To find the lastest head 
+
     git reflog
 
 To Compare the version of the files
+
     git diff
+
+To check the configuration of Remote repository 
+
+    git config --local --list   ( for local )
+    git config --global --list   ( for gobal )
+    git config --list  ( for both )
+
+To Configuring Git 
+    git config --global user.name "username"
+    git config --global user.email "useremail"
+
+To set the remote repository 
+
+    git remote add origin url
+
+To Push the remote repository 
+
+    git push -u origin master
+    
+To check the remove repository 
+
+    git remote -v
+
+
+
+
     
 
 
