@@ -64,8 +64,12 @@ To find the latest commit
     git show --summary
     git log .
     git log --oneline
+    git log --oneline --graph ( to show graph)
     cat .git/refs/heads/branchName
 
+To Compare the version of the files
+    git diff
+    
 
 
 
