@@ -24,7 +24,7 @@ If you’re short on space, you can use the “clean” command to remove downlo
 
 	sudo apt-get clean
 
-NOte :
+Note :
 The “apt-get” is a handy tool that makes downloading, installing, and uninstalling programs quick and easy
 
 
